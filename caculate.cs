@@ -7,9 +7,9 @@ public static class caculate
 	public int max(int a,int b)
 	{
 		if(a>b)
-			return a;
+			return a-b;
 		else
-			return b;
+			return b-a;
 	}
 }
 
